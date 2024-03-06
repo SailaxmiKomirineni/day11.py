@@ -9,6 +9,31 @@
 => programming = {"library": "books", "number":23}
    programming["contacts"] = "numbers"
 
+2. Ex:- Getting Both keys and Values 
+   programming = {"library": "books", "number":23}
+   programming["contacts"] = "numbers"
+   for key, value in programming.items():
+       print(key, value)
+   OUTPUT:-
+   library books
+   number 23
+   contacts numbers
+
+   Ex:- Getting keys and Values  SEPERATELY
+   programming = {"library": "books", "number":23}
+   programming["contacts"] = "numbers"
+   for key in programming.keys():
+       print(key)
+   OUTPUT:-
+      library 
+      number
+      contacts
+   for value in programming.values():
+       print(value)
+   OUTPUT:-
+      books 
+      23
+      numbers
 
 
 
