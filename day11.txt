@@ -1,1 +1,14 @@
+=> What is dictionary? How do we add elements in dictionary? What are methods to add?
+=> What are the methods to print keys or values and both keys and values?
+=> What is Tuple?
+
+1. Dictionaries are used to manipulate the data by storing data in from of keys and value pairs.
+   Ex:- programming = {"library": "books", "number":23}
+ Their are three methods to add data to dict.
+=> By adding key value pair at the end of dictionary by specifing coma
+=> programming = {"library": "books", "number":23}
+   programming["contacts"] = "numbers"
+
+
+
 
