@@ -9,6 +9,7 @@
 => By adding key value pair at the end of dictionary by specifing coma
 => programming = {"library": "books", "number":23}
    programming["contacts"] = "numbers"
+=> programming.update({"shop": "items"})
 
 2. Ex:- Getting Both keys and Values 
    programming = {"library": "books", "number":23}
