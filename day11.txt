@@ -2,9 +2,10 @@
 => What are the methods to print keys or values and both keys and values?
 => What is Tuple?
 
-1. Dictionaries are used to manipulate the data by storing data in from of keys and value pairs.We canot us indexing in dict.
+1. Dictionaries are used to manipulate the data by storing data in from of keys and value pairs.
+   =>We canNot us indexing in dict.
    Ex:- programming = {"library": "books", "number":23}
- Their are three methods to add data to dict.
+   Their are three methods to add data to dict.
 => By adding key value pair at the end of dictionary by specifing coma
 => programming = {"library": "books", "number":23}
    programming["contacts"] = "numbers"
@@ -36,14 +37,14 @@
       numbers
 
 
-* Keys in dict are immutable and values are mutable or immutable.
+* Keys in dict are immutable and values are mutable.
   EX:-
      programming = {"nums": [1,2,3]}
      print(programming)
 
 
 3. Tuple:-
-   Tuples are immutable, data stored in () parenthesis. We cannot to indexing to get data. 
+   Tuples are immutable, data stored in () parenthesis. We cannot do indexing to get data. 
   Ex:- Tuple are mostly used in dead lock situations.
      a = (1,2,3,4)
      print(a[0]) // error 
